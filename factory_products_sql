@@ -1,0 +1,12 @@
+CREATE table factory_products(
+    id integer primary Key,
+    name Text,
+    Quantity integer,
+    price integer
+  );
+  INSERT into factory_products (name, Quantity, price) values ("plastic_chair", 500, 150);
+  INSERT into factory_products (name, Quantity, price) values ("water_tank" , 120, 1200);
+  INSERT into factory_products (name, Quantity, price) values ("plastic_pipe" , 1000 , 45);
+  SELECT   name from factory_products;
+  SELECT   Quantity   from factory_products;
+  SELECT   price    from factory_products where price > 100;
