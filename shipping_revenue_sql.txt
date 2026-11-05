@@ -1,0 +1,13 @@
+CREATE Table revenue(
+  id Integer primary key,
+  ship_name Text,
+  route Text,
+  price integer 
+  );
+  INSERT INTO revenue (id,ship_name,route,price) values (1,"Express Berlin", "Alex to Hamburg" ,3000);
+  INSERT INTO revenue (id,ship_name,route,price) values (2,"Hamburg Express", "shanghai to Port Said", 1800);
+  INSERT INTO revenue (id,ship_name,route,price) values (3,"Express Berlin", "Alex to Hamburg" ,4200);
+  SELECT id from revenue;
+  SELECT ship_name from revenue;
+  SELECT route from revenue;
+  select price from revenue;
